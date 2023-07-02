@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "57693080191",
+    "project_id": "freechatapp-a3aab",
+    "storage_bucket": "freechatapp-a3aab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57693080191:android:cdca355cd61a4af210cd4a",
+        "android_client_info": {
+          "package_name": "com.example.freechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57693080191-ntk7344g9s4guek5nqm12jij9i0g4koc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.freechat",
+            "certificate_hash": "f7cc216ceb7385986c4ccb285e285da9e99cd395"
+          }
+        },
+        {
+          "client_id": "57693080191-jgnd95s6fctkp5srknenek7ur009abde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHVy-WOJBTkCAKUIt0ipUnPJik3MF_8j8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57693080191-jgnd95s6fctkp5srknenek7ur009abde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
