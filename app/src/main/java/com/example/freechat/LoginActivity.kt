@@ -30,10 +30,20 @@ class LoginActivity : AppCompatActivity() {
 
         fcmLogin.result.observe(this) { result ->
             when (result) {
-                is SignInResult.Success ->
+                is SignInResult.Success -> {
                     showAlertDialog("", result.message) {}
-                is SignInResult.Error ->
-                    binding.result = result
+                    binding.txtInput.error = null
+                    binding.textInputEmail.error = null
+                }
+                is SignInResult.Error -> {
+                    if (result.message.contains("Password")) {
+                        binding.txtInput.error = result.message
+                        binding.textInputEmail.error = null
+                    } else {
+                        binding.textInputEmail.error = result.message
+                        binding.txtInput.error = null
+                    }
+                }
             }
         }
 

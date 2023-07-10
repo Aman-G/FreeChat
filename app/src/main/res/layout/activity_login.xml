@@ -38,7 +38,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/text_input_email"
-            app:error="@{result.errorMessage}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/guideline_1"
             app:layout_constraintStart_toEndOf="@id/guideline"

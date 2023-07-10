@@ -12,7 +12,7 @@ data class UserProfile(
     var createdAt: Date? = null,
     @ServerTimestamp
     var updatedAt: Date? = null,
-    var image: String = "",
+    var avatar: String = "",
 
     @set:PropertyName("user_name")
     var userName: String = "",
